@@ -9,3 +9,11 @@ function climbStairs(n){
  return steps[steps.length-1]
 }
 console.log(climbStairs(4))
+// [0,1,2,3]
+// [1] --> 1
+// [1,1] [2] --> 2
+// [1,1,1] [2,1][1,2] -> 3
+// [0,1,2,3]
+// for(let i=4;i<=n;i++){
+//     steps[i]
+// }

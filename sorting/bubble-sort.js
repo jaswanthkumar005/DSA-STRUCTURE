@@ -8,6 +8,7 @@ function bubbleSort(arr){
                 arr[j]=lesser;
              }
         }
+        console.log(arr,"inside arary");
     }
 
     return arr;

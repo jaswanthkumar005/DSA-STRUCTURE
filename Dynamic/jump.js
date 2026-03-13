@@ -8,6 +8,7 @@ function JumpGame(arr){
         for(let i=0;i<j;i++){
             if(dpArr[i] && ((i+arr[i]) >= j) ){
                 dpArr[j] = true;
+                console.log("gg")
                 break;
             }
         }

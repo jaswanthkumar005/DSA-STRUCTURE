@@ -4,7 +4,7 @@ function mergeInterval(arr){
     arr.sort((a,b) => a[0]-b[0])
     let initial = arr[0];
     const res = [arr[0]];
-    for(let i=0; i<arr.length;i++){
+    for(let i=1; i<arr.length;i++){
         let currentInterval = arr[i];
         last = res[res.length-1];
         if(currentInterval[0] <= last[1]){

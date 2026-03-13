@@ -19,7 +19,7 @@ function throttle(fn,delay){
 
     return function(...args){
         let curr = new Date().getTime();
-        if(curr-delay < delay){
+        if(curr-lastCall < delay){
             return;
         }
         lastCall = curr;
